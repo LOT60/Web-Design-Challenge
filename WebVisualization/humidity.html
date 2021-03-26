@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--add meta tags to provide content for each page -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Latitude - Home</title>
+    <!-- Bootstrap --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css" integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+  
+  </head>
+<body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="../LandingPage.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav ml-auto">
+    
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                <a class="dropdown-item active bg-secondary" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../data.html">Data</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="../comparison.html">Comparisons</a>              
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col d-flex justify-content-center"> 
+            <div class="card d-flex justify-content-center w-75 mb-4">
+              <div class="card-header">
+                <h3 class="display-5">Latitude vs Humidity (%)</h3>
+              </div>            
+              <img src="Resources/City Latitude_vs_Humidity.png" alt="..." class="card-img-top">
+              <div class="card-body">
+                <p class="card-text lead">Scatter plot graph between City Latitude and Humidity .</p>
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-lg-4">
+            <div class="card border-success">
+              <div class="d-flex justify-content-center text-primary my-2">
+                <h3>Plots</h3>
+              </div>
+                
+            <div class="container mb-4">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md">
+                      <div class="caption d-flex justify-content-center my-2 text-primary">
+                        <h5>Latitude vs Max Temperature</h5>
+                    </div>
+                      <div class="thumbnail d-flex justify-content-center">
+                        <a href="maxtemp.html">
+                          <img src="Resources/City Latitude_vs_Max Temperature.png" alt="..." class="img-thumbnail">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="caption d-flex justify-content-center my-2 text-primary">
+                        <h5>Latitude vs Humidty (%)</h5>
+                    </div> 
+                      <div class="thumbnail d-flex justify-content-center">
+                        <a href="humidity.html">
+                          <img src="Resources/City Latitude_vs_Humidity.png" alt="..." class="img-thumbnail">
+                        </a>
+                        </div>              
+                  </div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                  <div class="col-md">
+                    <div class="caption d-flex justify-content-center my-2 text-primary">
+                      <h5>Latitude vs Cloudiness (%)</h5>
+                  </div>   
+                      <div class="thumbnail d-flex justify-content-center">
+                        <a href="cloudiness.html">
+                          <img src="Resources/City Latitude_vs_Cloudiness.png" alt="..." class="img-thumbnail">
+                        </a>
+                        </div>                    
+                  </div>
+                  <div class="col-md">
+                    <div class="caption d-flex justify-content-center my-2 text-primary">
+                      <h5>Latitude vs Wind Speed (mph)</h5>
+                  </div> 
+                      <div class="thumbnail d-flex justify-content-center">
+                        <a href="windspeed.html">
+                          <img src="Resources/City Latitude_vs_Wind Speed.png" alt="..." class="img-thumbnail">
+                        </a>
+                        </div>                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div> 
+        </div> 
+
+      </div>
