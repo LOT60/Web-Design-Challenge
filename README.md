@@ -4,11 +4,11 @@ Web-Design-Challenge
 ![comparison-lg](https://user-images.githubusercontent.com/74845016/112705672-d8836000-8e6d-11eb-9ba4-ca1bcc29af28.png)
 
 
-##Latitude - Latitude Analysis Dashboard with Attitude
+ ## Latitude - Latitude Analysis Dashboard with Attitude
 
 * In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-##Website Requirements
+## Website Requirements
 
 For reference, see the "Screenshots" section below.
 The website must consist of 7 pages total, including:
@@ -44,7 +44,7 @@ The table must be a bootstrap table component. Hint
 
 * The data must come from exporting the .csv file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called to_html that allows you to generate a HTML table from a pandas dataframe. See the documentation here
 
-##Considerations
+## Considerations
 
 * You may use the weather data or choose another dataset. Alternatively, you may use the included cities dataset and pull the images from the assets folder.
 
