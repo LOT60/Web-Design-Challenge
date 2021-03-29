@@ -17,8 +17,8 @@
   </head>
 <body>
   <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="LandingPage.html">Latitude</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,10 +35,10 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
+              <a class="nav-link" href="WebVisualization/data.html">Data</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparisons</a>
+              <a class="nav-link" href="WebVisualization/comparison.html">Comparisons</a>
             </li>
           </ul>
         </div>
@@ -48,16 +48,17 @@
       <div class="jumbotron">
         <div class="row">
           <div class="col"> 
-            <h1 class="display-3">Summary: Latitude vs X</h1>
+            <h1 class="display-3">Summary: Latitude Vs X</h1>
             <div class="clearfix">
               <img src="Resources/City Latitude_vs_Max Temperature.png" alt="..." class="float-left mr-4">
-              <h4 class="text-muted">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</h4>
+              <h4 class="lead">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</h4>
+            </p>
             </div>
             <hr class="my-4">
             <p class="lead">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
             
             <p class="lead">
-              <a class="btn btn-success btn-lg" href="data.html" role="button">See the Data</a>
+              <a class="btn btn-light" href="WebVisualization/data.html" role="button"> Dataset CSV</a>
             </p>
           </div> 
 
@@ -74,7 +75,7 @@
                         <h5>Latitude vs Max Temperature</h5>
                     </div>
                       <div class="thumbnail d-flex justify-content-center">
-                        <a href="maxtemp.html">
+                        <a href="WebVisualization/maxtemp.html">
                           <img src="Resources/City Latitude_vs_Max Temperature.png" alt="..." class="img-thumbnail">
                         </a>
                         </div>
@@ -84,7 +85,7 @@
                         <h5>Latitude vs Humidty (%)</h5>
                     </div> 
                       <div class="thumbnail d-flex justify-content-center">
-                        <a href="humidity.html">
+                        <a href="WebVisualization/humidity.html">
                           <img src="Resources/City Latitude_vs_Humidity.png" alt="..." class="img-thumbnail">
                         </a>
                         </div>              
@@ -96,7 +97,7 @@
                       <h5>Latitude vs Cloudiness (%)</h5>
                   </div>   
                       <div class="thumbnail d-flex justify-content-center">
-                        <a href="cloudiness.html">
+                        <a href="WebVisualization/cloudiness.html">
                           <img src="Resources/City Latitude_vs_Cloudiness.png" alt="..." class="img-thumbnail">
                         </a>
                         </div>                    
@@ -106,7 +107,7 @@
                       <h5>Latitude vs Wind Speed (mph)</h5>
                   </div> 
                       <div class="thumbnail d-flex justify-content-center">
-                        <a href="/windspeed.html">
+                        <a href="WebVisualization/windspeed.html">
                           <img src="Resources/City Latitude_vs_Wind Speed.png" alt="..." class="img-thumbnail">
                         </a>
                         </div>                   
